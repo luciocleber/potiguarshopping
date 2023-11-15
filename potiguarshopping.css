@@ -34,7 +34,8 @@ header{
 
 header > .menu{
 
-    font-size: 20;
+    font-size: 15;
+    text-align: left;
     
 
 }
