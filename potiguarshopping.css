@@ -27,7 +27,9 @@ header{
     font-display:unset;
     background-image: linear-gradient(to right, rgb(106, 184, 223), #0000ff);
     justify-content: space-between;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;padding: 10px;
     margin:0 px;
     font-size: 25px;
 }
@@ -114,7 +116,7 @@ main img{
 }
 
 .form{
-    width: 40%;
+    width min: 40%;
     size: 15px;
 }
 .menu{
