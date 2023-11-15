@@ -10,6 +10,9 @@
     border-radius: 45px;
 }
 
+img{
+    border-radius: 45px;
+}
 .card{
     display: flex;
     text-align: center;
@@ -189,3 +192,7 @@ footer > a{
     color:white;
     font-weight: bolder;
 }
+
+@media only screen and (max-width: 900px) {
+    /* .menu { width:100%; } */
+    }
