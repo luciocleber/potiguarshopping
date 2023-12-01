@@ -43,7 +43,7 @@ img{
 
 
 .destaques{
-    height: flex;
+    height: 300px;
     display:flex;
     min-width: 300px;
     max-width: 100%;
