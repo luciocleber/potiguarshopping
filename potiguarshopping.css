@@ -54,13 +54,12 @@ img{
 }
 
 header{
-    position: relative;
+    width: 100%;
     min-width: 300px;
     flex: 1;
     text-align: center;
     color: white;
     font-family:'tenor sans'cambria', sans-serif;
-    font-display:unset;
     background-image: linear-gradient(to right, rgb(106, 184, 223), #0000ff);
     justify-content: space-between;
     display: flex;
