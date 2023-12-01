@@ -43,7 +43,7 @@ img{
 
 
 .destaques{
-    height: 300px;
+    
     display:flex;
     min-width: 300px;
     max-width: 100%;
@@ -125,6 +125,7 @@ h2{
     text-align: center;
 }
 .banner{
+    display: flex;
     margin: 0%;
     width:100%;
     padding: 10px;
