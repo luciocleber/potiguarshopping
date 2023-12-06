@@ -1,9 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    
-    
+    padding: 0; 
    
 }
 
@@ -14,7 +12,6 @@ body{
     flex: 1;
     width: 100%;
     display: inline-block;
-    
     
 }
 
@@ -59,7 +56,7 @@ header{
     flex: 1;
     text-align: center;
     color: white;
-    font-family:'tenor sans'cambria', sans-serif;
+    font-family:'tenor sans';
     background-image: linear-gradient(to right, rgb(106, 184, 223), #0000ff);
     justify-content: space-between;
     display: flex;
