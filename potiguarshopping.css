@@ -28,7 +28,7 @@ img{
 .card img{
 
     box-sizing: border-box;
-    background-image: none;
+    background-size:cover;
     display:flex;
     height: 180px;
     width: 200px;
