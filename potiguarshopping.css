@@ -14,16 +14,13 @@ body{
     
 }
 
-
-
 header{
     display: flex;
     font-family:'tenor sans'cambria;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.732), #0000ffa1);
     justify-content: space-between;
-    padding: 10px;
-    margin:0 px;
-    font-size: 25px;
+    padding: 5px;
+
 }
 
 
@@ -39,40 +36,55 @@ header > h1{
 
     padding: 5px;
     text-shadow: 2px 2px 0  black;
-    color: white;
+    color: #fff;
     font-family: playlist script;
+    font-size: 50px;
+    
     
 }
 
 
 header > .form{
-    text-align: left;
-    font-size: 15px;
-    padding-top: 5px;
+    display: inline-block;
+    text-align: center;
+    size-adjust: 30px;
+    height: 40px;
+    line-height: 40px;
 }
 
-nav > a{
+.form{
+    display: inline-block;
+    size: 25px;
+    height: 40px;
+    line-height: 40px; 
+    
+}
 
-    padding: 5px;
-    padding-left: 0%;
-    padding-bottom: 5px;
+header img{
+
+    border-radius: 45px;
+    
+}
+nav > a{
+    display: inline-block;
+    margin-left: 30px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    float:left;
+    height: 40px;
+    line-height: 40px;
+    
 }
 
 nav > a:hover {
 
-    margin: 0%%;
-    padding: 5px;
-    background-color: rgb(184, 184, 192);
-    color: white;
-    transition-duration: 0.2s;
+    margin: 0%;
+    background-color: #ffffff45;
+    color:#000;
+    transition-duration: 1s;
     
+        
 }
-
-
 
 .sociais{
     width: center;
@@ -80,18 +92,18 @@ nav > a:hover {
     
 }
 
-.form{
-    width min: 40%;
-    size: 15px;
-}
+
+
 .menu{
+    display: inline-block;
     font-family:'Arial Narrow Bold', sans-serif;
+    line-height: 80px;
     min-width: 300px;
     max-width: 100%;
     align-content: space-between;
     float:left;
     padding-left: 0px;
-    size: 15px;
+    font-size: 15px;
 
 }
 
