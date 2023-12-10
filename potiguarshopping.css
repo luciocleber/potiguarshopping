@@ -46,17 +46,16 @@ header > h1{
 
 header > .form{
     display: inline-block;
-    text-align: center;
-    size-adjust: 30px;
-    height: 40px;
-    line-height: 40px;
+    text-align: justify;
+
+    
 }
 
 .form{
-    display: inline-block;
-    size: 25px;
-    height: 40px;
-    line-height: 40px; 
+    display: inline;
+    padding-top: 25px;
+    
+    
     
 }
 
@@ -66,7 +65,7 @@ header img{
     
 }
 nav > a{
-    display: inline-block;
+    display: inline;
     margin-left: 30px;
     color: white;
     text-decoration: none;
